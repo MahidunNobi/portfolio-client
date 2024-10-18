@@ -1,15 +1,12 @@
-import './App.css'
+import "./App.css";
+import Hero from "./componants/Hero/Hero";
 
 function App() {
-
-
   return (
     <>
-      
-      <h1 className='text-4xl text-red-600'>Vite + React</h1>
-    
+      <Hero />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
