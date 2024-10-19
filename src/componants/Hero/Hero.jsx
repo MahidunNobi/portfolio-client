@@ -15,16 +15,16 @@ const Hero = () => {
         <p className=" leading-relaxed">
           I started my web development journey a few years ago through
           self-paced YouTube tutorials. After starting my{" "}
-          <div className="inline-block">
+          <span className="inline-block">
             <RoughNotation type="highlight" show={true} color="#a7fc9f">
               freelancing career on Upwork in 2023 , I
             </RoughNotation>
-          </div>
+          </span>
           realized the importance of joining a supportive community to further
           develop my skills and advance my career. Alongside freelancing on
           Upwork, I joined Programming Hero, where I spent six months mastering
           the fundamentals and some advanced concepts of both{" "}
-          <div className="inline-block">
+          <span className="inline-block">
             <RoughNotation
               type="highlight"
               show={true}
@@ -33,9 +33,9 @@ const Hero = () => {
             >
               front-end
             </RoughNotation>
-          </div>{" "}
+          </span>{" "}
           (espacially) and{" "}
-          <div className="inline-block">
+          <span className="inline-block">
             <RoughNotation
               type="highlight"
               show={true}
@@ -44,12 +44,12 @@ const Hero = () => {
             >
               back-end
             </RoughNotation>
-          </div>{" "}
+          </span>{" "}
           development.
           <br /> <br />
           Through these experiences, I had the opportunity to work on both small
           and large web applications with different teams across the world in{" "}
-          <div className="inline-block">
+          <span className="inline-block">
             <RoughNotation
               type="highlight"
               show={true}
@@ -59,9 +59,9 @@ const Hero = () => {
             >
               different time zones
             </RoughNotation>
-          </div>{" "}
+          </span>{" "}
           which helped me develop a working style that leans toward{" "}
-          <div className="inline-block">
+          <span className="inline-block">
             <RoughNotation
               type="highlight"
               show={true}
@@ -70,9 +70,9 @@ const Hero = () => {
             >
               flexibility
             </RoughNotation>
-          </div>{" "}
+          </span>{" "}
           ,{" "}
-          <div className="inline-block">
+          <span className="inline-block">
             <RoughNotation
               type="highlight"
               show={true}
@@ -81,9 +81,9 @@ const Hero = () => {
             >
               clarity
             </RoughNotation>
-          </div>{" "}
+          </span>{" "}
           , and{" "}
-          <div className="inline-block">
+          <span className="inline-block">
             <RoughNotation
               type="highlight"
               show={true}
@@ -92,7 +92,7 @@ const Hero = () => {
             >
               collaboration
             </RoughNotation>
-          </div>{" "}
+          </span>{" "}
           .
           <br /> <br />
           Currently, I&apos;m looking for a full-time developer role.🙂
