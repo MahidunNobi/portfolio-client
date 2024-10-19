@@ -9,14 +9,13 @@ import JSImg from "../../assets/Logo/JavaScript.png";
 import TSImg from "../../assets/Logo/TypeScript.png";
 import PythonImg from "../../assets/Logo/Python.png";
 import { Tooltip } from "react-tooltip";
+import Title from "../Shared/Title";
 
 const Skills = () => {
   return (
     <section className="my-16">
       <div className="container mx-auto">
-        <h1 className="text-2xl md:text-4xl font-semibold font-roboto-slab border-b-2 pb-2">
-          My Toolkit
-        </h1>
+        <Title title={"My Toolkit"} />
         {/* Skills container */}
         <div className="flex flex-col md:flex-row gap-6 py-6">
           {/* Technical Skills */}
