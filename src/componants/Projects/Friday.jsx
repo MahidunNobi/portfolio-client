@@ -1,5 +1,6 @@
-import Img from "../../assets/Projects/art-box.png";
-const ArtBox = () => {
+import Img from "../../assets/Projects/friday-school.png";
+
+const Friday = () => {
   return (
     <div className="shadow-lg border flex flex-col md:flex-row p-4 rounded-lg gap-6 bg-gray-100">
       {/* Image */}
@@ -9,10 +10,10 @@ const ArtBox = () => {
       {/* Content */}
       <div className=" flex flex-col justify-between gap-3">
         <h2
-          onClick={() => document.getElementById("art-box").showModal()}
+          onClick={() => document.getElementById("friday").showModal()}
           className="text-xl font-medium leading-tight text-gray-800 hover:text-gray-900 hover:underline duration-300 cursor-pointer"
         >
-          Art Box
+          Friday School
         </h2>
         <div className="*:text-blue-600 space-x-2 text-xs">
           <span>ReactJS</span>
@@ -23,15 +24,16 @@ const ArtBox = () => {
           <span>Mongoose</span>
         </div>
         <p className="text-sm text-gray-700">
-          ArtBox is an online platform dedicated to inspiring creativity and
-          connecting artists and crafters worldwide. Our mission is to provide a
-          diverse range of high-quality art supplies, crafting materials, and
-          handmade creations to fuel the passions of creative individuals
-          everywhere.
+          Friday School is an innovative web application tailored for social
+          learning among friends. It&apos;s the go-to platform where you and
+          your buddies can deepen your knowledge, challenge each other, and have
+          fun while doing it. Here&apos;s a sneak peek into what makes Friday
+          School for Friends so special
         </p>
+
         <div className="flex flex-col sm:flex-row gap-1 md:gap-3 items-start">
           <a
-            href="https://github.com/MahidunNobi/art-box-client"
+            href="https://github.com/MahidunNobi/friday-school-client"
             target="_blank"
             className="inline-block w-full md:w-auto"
           >
@@ -40,7 +42,7 @@ const ArtBox = () => {
             </button>
           </a>
           <a
-            href="https://github.com/MahidunNobi/art-box-server"
+            href="https://github.com/MahidunNobi/friday-school-server"
             target="_blank"
             className="inline-block w-full md:w-auto"
           >
@@ -48,8 +50,9 @@ const ArtBox = () => {
               Server Code
             </button>
           </a>
+
           <a
-            href="https://art-box-9002b.web.app"
+            href="https://friday-school.web.app/"
             target="_blank"
             className="inline-block w-full md:w-auto"
           >
@@ -59,7 +62,7 @@ const ArtBox = () => {
           </a>
         </div>
       </div>
-      <dialog id="art-box" className="modal">
+      <dialog id="friday" className="modal">
         <div className="modal-box w-11/12 max-w-5xl">
           <form method="dialog">
             {/* if there is a button in form, it will close the modal */}
@@ -124,4 +127,4 @@ const ArtBox = () => {
   );
 };
 
-export default ArtBox;
+export default Friday;

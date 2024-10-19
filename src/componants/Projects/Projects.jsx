@@ -1,5 +1,6 @@
 import Title from "../Shared/Title";
 import ArtBox from "./ArtBox";
+import Friday from "./Friday";
 import PostPortal from "./PostPortal";
 
 const Projects = () => {
@@ -11,6 +12,7 @@ const Projects = () => {
         <div className="space-y-6 mt-6">
           <PostPortal />
           <ArtBox />
+          <Friday />
         </div>
       </div>
     </section>

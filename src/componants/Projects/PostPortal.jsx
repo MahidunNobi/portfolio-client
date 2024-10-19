@@ -32,12 +32,21 @@ const PostPortal = () => {
         </p>
         <div className="flex flex-col sm:flex-row gap-1 md:gap-3 items-start">
           <a
-            href="https://github.com/MahidunNobi/post-portal-client?tab=readme-ov-file"
+            href="https://github.com/MahidunNobi/post-portal-client"
             target="_blank"
             className="inline-block w-full md:w-auto"
           >
             <button className="w-full md:w-auto bg-gray-700 border-2 border-gray-700 text-white text-sm px-7 rounded-md py-2 hover:border-gray-900 hover:bg-gray-900 duration-200">
-              View Code
+              Client Code
+            </button>
+          </a>
+          <a
+            href="https://github.com/MahidunNobi/post-portal-server"
+            target="_blank"
+            className="inline-block w-full md:w-auto"
+          >
+            <button className="w-full md:w-auto bg-gray-700 border-2 border-gray-700 text-white text-sm px-7 rounded-md py-2 hover:border-gray-900 hover:bg-gray-900 duration-200">
+              Server Code
             </button>
           </a>
           <a
