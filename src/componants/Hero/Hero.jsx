@@ -1,6 +1,7 @@
 import { RoughNotation } from "react-rough-notation";
 import profileImg from "../../assets/Profile.png";
 import { FaDownload } from "react-icons/fa";
+import FilledBtn from "../Shared/FilledBtn";
 
 const Hero = () => {
   return (
@@ -97,9 +98,7 @@ const Hero = () => {
           Currently, I&apos;m looking for a full-time developer role.🙂
         </p>
         <div className="flex flex-col sm:flex-row gap-3 items-start">
-          <button className="w-full md:w-auto bg-gray-700 border-2 border-gray-700 text-white px-9 rounded-md py-3 hover:border-gray-900 hover:bg-gray-900 duration-200">
-            View Linkedin
-          </button>
+          <FilledBtn label="View Linkedin" />
 
           <button className="w-full md:w-auto border-2 border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white duration-200 px-9 rounded-md py-3 flex items-center justify-center gap-3 ">
             Resume <FaDownload size={18} />
