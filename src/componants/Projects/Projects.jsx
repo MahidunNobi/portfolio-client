@@ -1,4 +1,5 @@
 import Title from "../Shared/Title";
+import ArtBox from "./ArtBox";
 import PostPortal from "./PostPortal";
 
 const Projects = () => {
@@ -9,6 +10,7 @@ const Projects = () => {
         {/* -------Projects Container-------- */}
         <div className="space-y-6 mt-6">
           <PostPortal />
+          <ArtBox />
         </div>
       </div>
     </section>
