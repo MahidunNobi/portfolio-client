@@ -65,7 +65,7 @@ const Hero = () => {
               type="highlight"
               show={true}
               color="#a7fc9f"
-              animationDelay={4000}
+              animationDelay={3200}
             >
               flexibility
             </RoughNotation>
@@ -76,7 +76,7 @@ const Hero = () => {
               type="highlight"
               show={true}
               color="#fae996"
-              animationDelay={4800}
+              animationDelay={4000}
             >
               clarity
             </RoughNotation>
@@ -87,7 +87,7 @@ const Hero = () => {
               type="highlight"
               show={true}
               color="#FFBD73"
-              animationDelay={5600}
+              animationDelay={4800}
             >
               collaboration
             </RoughNotation>
