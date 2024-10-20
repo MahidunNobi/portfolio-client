@@ -126,7 +126,9 @@ const Skills = () => {
           <div className="md:flex-1">
             {/* -------Font-End----- */}
             <div>
-              <h6 className="text-xl font-semibold mb-3">SOFT-SKILLS:</h6>
+              <h6 className="text-xl font-semibold mb-3 dark:text-white">
+                SOFT-SKILLS:
+              </h6>
               <ul className="list-disc pl-6">
                 <li>Adaptability</li>
                 <li>Flexibility</li>
