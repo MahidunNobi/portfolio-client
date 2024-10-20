@@ -29,7 +29,8 @@ const LetsTalk = () => {
   return (
     <section id="letsTalk" className="my-16">
       <div className="container mx-auto">
-        <Title title="Lets Talk" />;{/*---------- Contact Info-------- */}
+        <Title title="Lets Talk" />
+        {/*---------- Contact Info-------- */}
         <div className="flex flex-col md:flex-row gap-6 py-6">
           <div className="space-y-3 md:flex-1">
             {/* ----Mail------ */}
