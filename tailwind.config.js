@@ -21,4 +21,8 @@ export default {
     // eslint-disable-next-line no-undef
     require("daisyui"),
   ],
+  daisyui: {
+    themes: true, // You can still use DaisyUI themes
+    darkTheme: "light", // Set the dark mode theme to "light" to prevent dark mode
+  },
 };
