@@ -1,11 +1,9 @@
-import artBoxImage from "../../assets/Projects/art-box.png";
-
 const ArtBox = () => {
   return (
     <div className="shadow-lg border flex flex-col md:flex-row p-4 rounded-lg gap-6 bg-gray-100">
       {/* Image */}
       <div className="max-w-96 rounded-lg overflow-hidden">
-        <img src={artBoxImage} alt="" />
+        <img src="https://ibb.co.com/9ppc0JZ" alt="" />
       </div>
       {/* Content */}
       <div className=" flex flex-col justify-between gap-3">
