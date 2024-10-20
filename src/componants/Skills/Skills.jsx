@@ -132,7 +132,7 @@ const Skills = () => {
                 <li>Flexibility</li>
                 <li>Problem Solving</li>
                 <li>Teamwork</li>
-                <li>EffectiveCommunication</li>
+                <li>Effective Communication</li>
                 <li>Time Management(Global)</li>
                 <li>Dicision Making</li>
                 <li>Project Management</li>

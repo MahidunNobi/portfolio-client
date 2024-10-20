@@ -1,6 +1,6 @@
 import { IoIosMail } from "react-icons/io";
 import Title from "../Shared/Title";
-import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaPhone } from "react-icons/fa";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import FilledBtn from "../Shared/FilledBtn";
@@ -36,6 +36,11 @@ const LetsTalk = () => {
             <div className="flex items-center gap-3 underline">
               <IoIosMail size={20} />
               <span>mdmahidunnobi@gmail.com</span>
+            </div>
+            {/* ----Mail------ */}
+            <div className="flex items-center gap-3 underline">
+              <FaPhone size={20} />
+              <span>+8801618252490</span>
             </div>
             {/* ----Linkedin------ */}
             <div className="flex items-center gap-3 underline">
