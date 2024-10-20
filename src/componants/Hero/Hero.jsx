@@ -1,5 +1,6 @@
 import { RoughNotation } from "react-rough-notation";
 import { FaDownload } from "react-icons/fa";
+import profileImg from "../../assets/profile.png";
 
 const Hero = () => {
   return (
@@ -113,7 +114,7 @@ const Hero = () => {
       {/* ---------Right--------- */}
       <div>
         <div className="w-64 h-64 rounded-lg overflow-hidden bg-gray-200">
-          <img src="https://ibb.co.com/T2qCqkV" alt="" />
+          <img src={profileImg} alt="" />
         </div>
       </div>
     </section>
