@@ -7,13 +7,13 @@ import Skills from "./componants/Skills/Skills";
 
 function App() {
   return (
-    <>
+    <main className="relative">
       <Hero />
       <Skills />
       <Experience />
       <Projects />
       <LetsTalk />
-    </>
+    </main>
   );
 }
 

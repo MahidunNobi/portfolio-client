@@ -4,7 +4,7 @@ import FilledBtn from "../Shared/FilledBtn";
 
 const Experience = () => {
   return (
-    <section className="my-16">
+    <section id="experience" className="my-16">
       <div className="container mx-auto">
         <Title title="Work History" />
         <div className="space-y-3 mt-6">

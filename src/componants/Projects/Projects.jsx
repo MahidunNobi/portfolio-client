@@ -5,7 +5,7 @@ import PostPortal from "./PostPortal";
 
 const Projects = () => {
   return (
-    <section className="my-16">
+    <section id="projects" className="my-16">
       <div className="container mx-auto">
         <Title title="Featured Projects" />
         {/* -------Projects Container-------- */}

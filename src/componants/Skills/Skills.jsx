@@ -13,7 +13,7 @@ import Title from "../Shared/Title";
 
 const Skills = () => {
   return (
-    <section className="my-16">
+    <section id="toolkit" className="my-16">
       <div className="container mx-auto">
         <Title title={"My Toolkit"} />
         {/* Skills container */}

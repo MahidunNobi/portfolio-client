@@ -1,17 +1,40 @@
+import { Link } from "react-scroll";
+
 const Navbar = () => {
   const links = (
     <>
       <li>
-        <a className="hover:text-red-500 hover:bg-transparent">Item 1</a>
+        {/* <a className="hover:text-red-500 hover:bg-transparent">Item 1</a> */}
+        <Link to="home" smooth duration={600}>
+          {" "}
+          Home{" "}
+        </Link>
       </li>
       <li>
-        <a className="hover:text-red-500 hover:bg-transparent">Item 3</a>
+        <Link to="toolkit" smooth duration={600}>
+          Skills
+        </Link>
+      </li>
+      <li>
+        <Link to="experience" smooth duration={600}>
+          Experience
+        </Link>
+      </li>
+      <li>
+        <Link to="projects" smooth duration={600}>
+          Projects
+        </Link>
+      </li>
+      <li>
+        <Link to="letsTalk" smooth duration={600}>
+          Contact
+        </Link>
       </li>
     </>
   );
 
   return (
-    <nav>
+    <nav className="fixed top-0 shadow-lg w-full z-10">
       <div className="bg-base-100">
         <div className="container mx-auto px-3 navbar">
           {/* --------Start---- */}

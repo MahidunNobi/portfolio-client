@@ -1,11 +1,13 @@
 import { RoughNotation } from "react-rough-notation";
 import profileImg from "../../assets/Profile.png";
 import { FaDownload } from "react-icons/fa";
-import FilledBtn from "../Shared/FilledBtn";
 
 const Hero = () => {
   return (
-    <section className="container mx-auto px-3 flex justify-between flex-col-reverse md:flex-row my-16 items-center md:items-start gap-6 md:gap-20">
+    <section
+      id="home"
+      className="container mx-auto px-3 flex justify-between flex-col-reverse md:flex-row mt-32 mb-16 items-center md:items-start gap-6 md:gap-20"
+    >
       {/* -----------Left-------- */}
       <div className="space-y-6">
         <h1 className="text-3xl md:text-5xl font-semibold font-roboto-slab">
@@ -17,13 +19,13 @@ const Hero = () => {
           self-paced YouTube tutorials. After starting my{" "}
           <span className="inline-block">
             <RoughNotation type="highlight" show={true} color="#a7fc9f">
-              freelancing career on Upwork in 2023 , I
+              freelancing career on Upwork in 2023
             </RoughNotation>
-          </span>
-          realized the importance of joining a supportive community to further
-          develop my skills and advance my career. Alongside freelancing on
-          Upwork, I joined Programming Hero, where I spent six months mastering
-          the fundamentals and some advanced concepts of both{" "}
+          </span>{" "}
+          , I realized the importance of joining a supportive community to
+          further develop my skills and advance my career. Alongside freelancing
+          on Upwork, I joined Programming Hero, where I spent six months
+          mastering the fundamentals and some advanced concepts of both{" "}
           <span className="inline-block">
             <RoughNotation
               type="highlight"
